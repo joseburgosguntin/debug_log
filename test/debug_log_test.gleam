@@ -1,7 +1,6 @@
 import gleam/iterator
 import gleeunit
-// import gleeunit/should
-import log.{trace, debug, info, warn, error}
+import debug_log.{trace, debug, info, warn, error}
 
 pub fn main() {
   gleeunit.main()
