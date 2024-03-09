@@ -13,7 +13,6 @@ pub fn color_test() {
   |> iterator.cycle 
   |> iterator.take(10)
   |> iterator.each(fn(f) { f("testing colors") })  
-  panic "for showing logs"
 }
 
 type Thing {
@@ -23,5 +22,4 @@ type Thing {
 pub fn thing_test() {
   let thing = This(x: 1, y: 1)
   debug(thing)
-  panic "for showing logs"
 }
