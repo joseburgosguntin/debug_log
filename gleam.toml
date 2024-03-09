@@ -3,11 +3,7 @@ version = "1.0.0"
 description = "🪵 Simple io.debug like logs"
 licences = ["GPL-3.0-only"]
 
-repository = {
-  type = "github",
-  user = "joseburgosguntin",
-  repo = "debug_log"
-}
+repository = { type = "github", user = "joseburgosguntin", repo = "debug_log" }
 
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
