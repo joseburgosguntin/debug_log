@@ -1,14 +1,14 @@
-# log
+# debug_log
 
-[![Package Version](https://img.shields.io/hexpm/v/log)](https://hex.pm/packages/log)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/log/)
+[![Package Version](https://img.shields.io/hexpm/v/debug_log)](https://hex.pm/packages/debug_log)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/debug_log/)
 
 ```sh
-gleam add log
+gleam add debug_log
 ```
 
 ```gleam
-import log
+import debug_log as log
 
 type Thing {
     This(x: Int, y: Int)
@@ -22,7 +22,7 @@ pub fn main() {
 }
 ```
 
-Further documentation can be found at <https://hexdocs.pm/log>.
+Further documentation can be found at <https://hexdocs.pm/debug_log>.
 
 ## Development
 
