@@ -6,11 +6,19 @@
 ```sh
 gleam add log
 ```
+
 ```gleam
 import log
 
+type Thing {
+    This(x: Int, y: Int)
+}
+
 pub fn main() {
-  // TODO: An example of the project in use
+    log.info("just like io.debug")
+
+    let thing = This(x: 1, y: 1)
+    log.debug(thing)
 }
 ```
 
