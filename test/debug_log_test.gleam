@@ -1,6 +1,6 @@
 import gleam/iterator
 import gleeunit
-import debug_log.{trace, debug, info, warn, error}
+import debug_log.{debug, error, info, trace, warn}
 
 pub fn main() {
   gleeunit.main()
@@ -9,9 +9,9 @@ pub fn main() {
 pub fn color_test() {
   [trace, debug, info, warn, error]
   |> iterator.from_list
-  |> iterator.cycle 
+  |> iterator.cycle
   |> iterator.take(10)
-  |> iterator.each(fn(f) { f("testing colors") })  
+  |> iterator.each(fn(f) { f("testing colors") })
 }
 
 type Thing {
